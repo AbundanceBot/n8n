@@ -44,7 +44,8 @@
     "test:nodes": "turbo run test:nodes --concurrency=1",
     "watch": "turbo run watch --parallel",
     "webhook": "./packages/cli/bin/n8n webhook",
-    "worker": "./packages/cli/bin/n8n worker"
+    "worker": "./packages/cli/bin/n8n worker",
+    "youtube-transcript": "^1.0.3"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.0",
