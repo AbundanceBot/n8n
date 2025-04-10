@@ -1,0 +1,24 @@
+{
+  "name": "youtubeTranscription",
+  "displayName": "YouTube Transcription",
+  "icon": "file:youtube.svg",
+  "group": ["transform"],
+  "version": 1,
+  "description": "Get transcript from YouTube video",
+  "defaults": {
+    "name": "YouTube Transcription"
+  },
+  "inputs": ["main"],
+  "outputs": ["main"],
+  "properties": [
+    {
+      "displayName": "Video ID",
+      "name": "videoId",
+      "type": "string",
+      "default": "",
+      "placeholder": "e.g. n2RNcPRtAiY",
+      "description": "YouTube video ID to fetch transcript for",
+      "required": true
+    }
+  ]
+}
